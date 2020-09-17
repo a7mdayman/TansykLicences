@@ -1,0 +1,69 @@
+﻿@font-face {
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 700;
+    src: url(font/DroidKufi-Bold.eot);
+    src: url(font/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'), url(font/DroidKufi-Bold.woff2) format('woff2'), url(font/DroidKufi-Bold.woff) format('woff'), url(font/DroidKufi-Bold.ttf) format('truetype')
+}
+body {
+    text-align: right;
+    direction: rtl;
+}
+input, span, button, a, p, h2, h3, h1, h4, h5, h6, div {
+    font-family: 'Droid Arabic Kufi', Tahoma !important;
+}
+table, td, tr, .Center, input {
+    text-align: center;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: auto!important;
+}
+input {
+    font-weight: 900;
+}
+.Dnone {
+    display: none;
+}
+/*.modal-dialog {
+    min-width: 90%!important
+}*/
+
+.modal {
+    z-index: 99999;
+}
+.row {
+    width: 100%;
+     margin-right: 0; 
+     margin-right: 0; 
+}
+footer{
+    margin-top:50px;
+    font-size:1rem !important;
+}
+.alert {
+    margin-bottom: 0
+}
+.TextDesc {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 30px;
+    color: #cc9a33 !important;
+}
+
+.browns {
+    background-color: #cc9a33 !important;
+}
+
+.default-color {
+    background-color: #cc9a33 !important;
+}
+
+.ReqDiv, .SubDesc {
+    color: #1a8167 !important
+}
+
+footer.page-footer, footer.page-footer a,
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #1a8167 !important
+}

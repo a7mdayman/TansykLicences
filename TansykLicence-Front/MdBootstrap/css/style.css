@@ -1,0 +1,36 @@
+body{
+    direction:rtl;
+    text-align:right;
+}
+.TextDesc {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 30px;
+    color: #cc9a33 !important;
+}
+.SubDesc {
+    color: #1a8167 !important
+}
+footer, .text-uppercase {
+    direction: rtl !important;
+    text-align: right !important;
+}
+.list-unstyled {
+    direction: rtl !important;
+    text-align: right !important;
+    padding-right:30px
+}
+.browns {
+    background-color: #cc9a33 !important;
+}
+.default-color {
+    background-color: #cc9a33 !important;
+
+}
+footer.page-footer, footer.page-footer a,
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #1a8167 !important
+}
+p {
+    text-align: right !important;
+}

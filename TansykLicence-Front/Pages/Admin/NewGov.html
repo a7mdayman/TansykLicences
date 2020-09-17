@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="البلاغات">
+    <link rel="icon" type="image/png" href="../../images/favicon.ico" />
+    <title>
+        الجولات الميدانية
+    </title>
+    <link href="../../MdBootstrap/css/mdb.min.css" rel="stylesheet" />
+    <link href="../../css/bootstrap4.0/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../css/fontawesomeV5.0.6/all.css" rel="stylesheet" />
+    <link href="../../css/Font.css" rel="stylesheet" />
+    <link href="../../css/dataTables.min.css" rel="stylesheet" />
+    <link href="../../css/animate.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="page-wrapper"></div>
+    <div class="container-fluid">
+
+        <div class="card card-body bg-light mt-3">
+            <button type="button" class="btn btn-outline-default waves-effect col-12 col-md-3 NewOrderBtn">
+                الجهات الخدمية
+            </button>
+            <div class="OederDiv">
+                <div class="alert alert-" role="alert" style="text-align:center;font-size:1.8rem;color:black!important">
+                    <div href="#" class="alert-link">
+                        جهة خدمية جديدة
+                    </div>
+                </div>
+                <!--<hr>-->
+                <div id="FirstStepDiv" style="padding:10px;border:3px dashed black">
+
+                    <div class="row">
+                        <div class="col-md-2 col-sm-6 col-xs-12">
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div>
+                                <label for="GovName">
+                                    اسم الجهة  :
+                                </label>
+                                <div class="input-group Controls ">
+                                    <input type="text" class="form-control " id="GovName">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <label for="DelegateName">
+                                اسم المندوب   :
+                            </label>
+                            <input type="text" class="form-control " id="DelegateName">
+                        </div>
+
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-2 col-sm-6 col-xs-12">
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <label for="DelegateId">
+                                رقم سجل المندوب   :
+                            </label>
+                            <input type="text" class="form-control " id="DelegateId">
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <label for="DelegateMob">
+                                رقم جوال المندوب   :
+                            </label>
+                            <input type="text" class="form-control " id="DelegateMob">
+                           
+                        </div>
+                    </div>  <br />
+                    <div class="row">
+                        <div class="col-md-2 col-sm-6 col-xs-12">
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <label for="NumPaper">
+                                رقم الخطاب   :
+                            </label>
+                            <input type="text" class="form-control " id="NumPaper">
+                      
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label for="PaperPic">صورة الخطاب</label>
+                                <input type="file" class="form-control-file FileJPG" accept="image/x-png,image/gif,image/jpeg" id="PaperPic">
+                            </div>
+                          
+                        </div>
+                    </div>
+
+                    <hr />
+                    <div class="m-auto mt-4 ">
+                        <button class="btn btn-success btn-block btn-lg col-md-8" id="InsertBtn">
+                            تسجيل الجهة
+                        </button>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <br />
+    <div class="modal fade " tabindex="-1" id="CloseAndCanselModel" role="dialog">
+        <div class="modal-dialog modal-full-heigh modal-top" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body" style="text-align: center">
+                    <p id="statuslicense" style="font-size: large">&hellip;</p>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+    <script src="../../MdBootstrap/js/mdb.min.js"></script>
+    <script src="../../js/popper.min.js"></script>
+    <script src="../../lib/bootstrap.min.js"></script>
+    <script src="../../js/jquery.dataTables.min.js"></script>
+    <script src="../../js/SideBarHtml.js"></script>
+    <script src="../../js/Admin/NewGov.js"></script>
+</body>
+</html>
